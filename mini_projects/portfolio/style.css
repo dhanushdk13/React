@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    color: rgb(85, 85, 85);
+}
+
+
+/* Transition */
+a,.btn{
+    transition: all 300ms ease;
+}
+
+/*Desktop Nav*/
+
+nav,.nav-links{
+    display: flex;
+}
+
+nav{
+    height: 17vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+}
+
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    text-decoration-color: white;
+}
+
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: grey;
+}
+
+.Logo{
+    font-size: 2rem;
+    cursor: default;
+}
+
+#hamburger-nav{
+    display:none;
+}
+
+.hamburger-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
