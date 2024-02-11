@@ -174,7 +174,7 @@ nav>article>.menu>ol>li>.highlight:hover{
 #free{
     height: 500px;
     width: 100%;
-    background: linear-gradient(rgb(168, 24, 168),rgb(102, 102, 249));
+    background: linear-gradient(rgb(168, 24, 168),rgb(100, 43, 207));
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -189,9 +189,54 @@ nav>article>.menu>ol>li>.highlight:hover{
 }
 
 #questions{
-    height: 595px;
+    height: 540px;
     width: 100%;
 }
+
+#questions h1{
+    height: 46px;
+    width: 80%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 53px;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#questions ol{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+#questions ol li{
+    height: 80px;
+    width: 80%;
+    padding-right: 20px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    padding-left: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgb(242, 240, 240);
+}
+
+#questions ol li svg{
+    transform: rotate(180deg);
+}
+
+#questions ol li:hover{
+    background-color: rgb(242, 240, 240);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 
 #ready{
     height: 450px;
@@ -233,5 +278,6 @@ nav>article>.menu>ol>li>.highlight:hover{
     color: white;
     transition: all 0.2s ease-in;
 }
+
 
 
