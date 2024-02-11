@@ -40,7 +40,7 @@ nav{
 
 .nav-links{
     gap: 2rem;
-    list-style: none;
+    list-style:none;
 }
 
 a{
@@ -63,7 +63,7 @@ a:hover{
 }
 
 #hamburger-nav{
-    display:none;
+    display: none;
 }
 
 .hamburger-menu{
@@ -79,6 +79,140 @@ a:hover{
     width: 30px;
     cursor: pointer;
 }
+
+.menu-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburger-icon span{
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+    
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width:fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+#profile{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.img-container{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    margin:auto 0;
+}
+
+.info{
+    align-self: center;
+    text-align: center;
+}
+
+.info p{
+    font-weight: 600;
+}
+
+.profile-text{
+    text-align: center;
+}
+
+.profile-name{
+    font-size: 2.5rem;
+}
+
+.profile-text-2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+.socials{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.icon{
+    height: 2rem;
+    cursor: pointer;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+  }
+
+  .btn-colour1,
+  .btn-colour2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+  }
+
+  .btn-colour1:hover,
+.btn-colour2:hover {
+  cursor: pointer;
+}
+
+.btn-colour1,
+.btn-colour2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-colour1:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+  }
+
+.btn-colour2{
+    background: none;
+}
+
+.btn-colour2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 

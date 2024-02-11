@@ -10,8 +10,8 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="Logo">DK</div>
-        <div>
+        <div class="Logo">Dhanush Kumar B</div>
+        <div class="row">
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#Experience">Experience</a></li>
@@ -24,7 +24,7 @@
         <div class="Logo">DK</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="togglemenu()">
-                <span>hi</span>
+                <span></span>
                 <span></span>
                 <span></span>
             </div>
@@ -36,6 +36,30 @@
             </div>
         </div>
     </nav>
+
+    <section id="profile">
+        <div class="img-container">
+            <img src="assets/profile-pic.png" alt="">
+        </div>
+        <div class="info">
+            <p class="profile-text">Hello I'm</p>
+            <h1 class="profile-name">Dhanush Kumar B</h1>
+            <p class="profile-text-2">Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-colour2" onclick="window.open('./assets/resume.pdf')">
+                    Resume
+                </button>
+                <button class="btn btn-colour1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div class="socials">
+                <img src="./assets/linkedin.png" alt="" class="icon" onclick="location.href='https://www.linkedin.com/in/dhanush-kumar-a20200267/'">
+           
+                <img src="./assets/github.png" alt="" class="icon" onclick="location.href='https://github.com/dhanushdk13'">
+            </div>    
+        </div>
+    </section>
     <script src="script.js"> </script>
 </body>
 </html>
